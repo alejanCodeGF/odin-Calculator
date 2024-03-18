@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculator {
+    margin: 32px;
+    width: 190px;
+}
+
+#screen {
+    border: 5px lightslategray solid;
+    text-align: right;
+    background-color: lightblue;
+}
+
+#buttons-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    border: 5px lightslategray solid;
+    background-color: rgb(51, 51, 51);
+}
+
+.number_button {
+    background-color: lightblue;
+}
+
+.operation_button, .other_button {
+    background-color: lightcoral;
+}
+
+.number_button, .operation_button, .other_button {
+    width: 60px;
+}
